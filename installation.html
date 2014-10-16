@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>First program</title>
+	<!-- Importing the stylesheet for the widgets -->
+		<link rel="stylesheet" type="text/css" href="../ext-4.2.1/resources/css/ext-all.css">
+
+	<!-- Importing the Ext JS library -->
+		<script type="text/javascript" src="../ext-4.2.1/ext-all-dev.js"></script>
+	<!-- Importing our application -->
+		<script type="text/javascript" src="Client.js"></script>
+		<script type="text/javascript">
+		//creating an instance of Client
+			var client = Ext.create("MyApp.Client");
+			console.log(client.name);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
+
+
